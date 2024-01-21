@@ -29,7 +29,7 @@ png(file = "plot1.png")
 hist(as.numeric(df$Global_active_power), 
                 xlab = "Global Active Power (kilowatts)", 
                 ylab = "Frequency",
-                main = "GLobal Active Power",
+                main = "Global Active Power",
                 col = "red"
                 )
 dev.off()
